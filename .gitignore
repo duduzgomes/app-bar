@@ -1,0 +1,25 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Arquivos de build e dependências
+target/
+build/
+.gradle/
+.m2/
+
+# Arquivos de log e temporários
+*.log
+logs/
+*.tmp
+*.temp
+
+# Outros arquivos gerados automaticamente
+*.class
+*.jar
+*.war
+
+### VS Code ###
+.vscode/
